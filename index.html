@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title> Hotel Booking </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="./image/logo.png" alt="">
+                </a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars">
+                         <i class="fas fa-times">
+
+                         </i>
+                    </i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="./Index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#About" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Service" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="main-heading">
+                    <h2 class="title">Book Your Best Experience</h2>
+                </div>
+                <a href="https://www.thrillophilia.com/countries/maldives/tours" target="_blank" class="btn btn-gradient">Explore Now
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </a>
+            </div>
+        </div>
+
+
+        <section class="booking">
+            <div class="container">
+                <form action="" class="book-form">
+                    <div class="input-group">
+                        <label for="destination" class="input-label">Destination</label>
+                        <input type="text" class="input" id="destination">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-in" class="input-label">Cheak in</label>
+                        <input type="date" class="input" id="check-in">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out" class="input-label">Check out</label>
+                        <input type="date" class="input" id="check-out">
+                    </div>
+                    <div class="input-group">
+                        <label for="adults" class="input-label">Adults</label>
+                        <select class="options" id="adults">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="children" class="input-label">Children</label>
+                        <select class="options" id="children">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn form-btn btn-purple">Search
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="hotels">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Explore</span>
+                    <span class="sub-heading">Our beautiful hotels</span>
+                </h5>
+                <div class="grid">
+                    <div class="grid-item featured-hotels">
+                        <img src="./image/cocoon-maldives.jpg" alt="" class="hotel-image">
+                        <h5 class="hotel-name">Cocoon Maldives</h5>
+                        <span class="hotel-price">From ₹63,781/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <a href="https://cocoonmaldives.com" target="_blank" class="btn btn-gradient">Book now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+
+                    <div class="grid-item featured-hotels">
+                        <img src="./image/vakkaru-maldives-aerial.jpg" alt="" class="hotel-image">
+                        <h5 class="hotel-name">Vakkaru Maldives</h5>
+                        <span class="hotel-price">From ₹1,02,441/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                        </div>
+                        <a href="https://www.vakkarumaldives.com/" target="_blank" class="btn btn-gradient">Book now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+
+                    <div class="grid-item featured-hotels">
+                        <img src="./image/Angsana Velavaru.jpg" alt="" class="hotel-image">
+                        <h5 class="hotel-name">Angsana Velavaru</h5>
+                        <span class="hotel-price">From ₹1,09,092/Night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <a href="https://www.angsana.com/en/maldives/velavaru" target="_blank" class="btn btn-gradient">Book now
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <div class="offer-content">
+                    <div class="discount">
+                        55% off
+                    </div>
+                    <h5 class="hotel-name">Le Meridien Maldives Resort & Spa</h5>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                    </div>
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Excepturi optio quae provident itaque omnis saepe at nam culpa doloremque ipsum, <br> hic, magni corporis eaque ex voluptates? Tenetur sed rem aperiam.
+                    </p>
+                    <a href="#" class="btn btn-gradient">Redeem offer
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="Service" class="rooms">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Luxurious</span>
+                    <span class="sub-heading"> Affordable rooms</span>
+                </h5>
+                <div class="grid rooms-grid">
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699<span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699<span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699<span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img class="room-image" src="./image/image_1.jpg" alt="">
+                            <h5 class="room-name">Duplex beach pool 2 bedroom villa</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">₹1,09,699 <span class="per-night">
+                            Per night
+                        </span></span>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Iusto, deleniti quis corporis sint dolore magni accusamus consequuntur quo itaque asperiores. <br> Quasi, quisquam culpa! Vel dolorum perferendis culpa fugit!
+                                Omnis, quia?
+                            </p>
+                            <a href="https://www.marriott.com/hotels/hotel-rooms/details/mlejs-jw-marriott-maldives-resort-and-spa/dbbv" target="_blank" class="btn rooms-btn">Book now &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact" class="contact">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Contact</span>
+                    <span class="sub-heading"> Get in touch with us</span>
+                </h5>
+                <div class="contact-content">
+                    <div class="traveler-wrap">
+                        <img src="./image/contact.jpg" alt="">
+                    </div>
+                    <form action="" class="form contact-form">
+                        <div class="input-group-wrap">
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="Name" required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="input" placeholder="E-mail" required>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="input" placeholder="Subject" required>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="input" cols="30" rows="8" placeholder="Message" required></textarea>
+                            <span class="bar"></span>
+                        </div>
+                        <button type="submit" class="btn form-btn btn-purple">Submit
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div id="About" class="footer-content-brand">
+                    <a href="Index.html" class="logo">
+                        <img class="logo-image" src="./image/logo.png" alt="">
+                    </a>
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Aliquid officia id impedit adipisci nam blanditiis perferendis itaque<br>quam obcaecati, sapiente perspiciatis modi maiores necessitatibus <br>repellat eaque vel.Animi,quidem
+                        ipsa!
+                    </div>
+                </div>
+                <div class="social-media-wrap">
+                    <h4 class="footer-heading">Follow us</h4>
+                    <div class="social-media">
+                        <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100015484121585&mibextid=LQQJ4d" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/ptl_jainil09/" target="_blank" class="sm-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/+918320193272" class="sm-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>
