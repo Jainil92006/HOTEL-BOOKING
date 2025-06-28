@@ -347,7 +347,7 @@ section {
 /*special offer section style*/
 
 .offer {
-    background: linear-gradient(to right, rgba(250, 158, 44, .8), rgba(143, 80, 251, .8)), url("./image/le-meridien-maldives.jpg") bottom center no-repeat;
+    background: linear-gradient(to right, rgba(250, 158, 44, .8), rgba(143, 80, 251, .8)), url("le-meridien-maldives.jpg") bottom center no-repeat;
     background-size: cover;
 }
 
